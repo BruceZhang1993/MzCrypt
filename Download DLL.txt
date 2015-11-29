@@ -1,0 +1,6 @@
+Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)
+============================================================
+
+In case of missing DLLs ("The application failed to initialize properly")
+download and install this package:
+http://www.microsoft.com/en-us/download/details.aspx?id=5582

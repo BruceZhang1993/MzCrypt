@@ -1,0 +1,57 @@
+#include <windows.h>
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+LANGUAGE 0x00, 0x00
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+101             ICON                    "MzCrypt-Gui.ico"
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,0,3,0
+ PRODUCTVERSION 0,9,3,0
+ FILEFLAGSMASK 0x8L
+ FILEFLAGS 0x8L
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "MzCrypt-Gui is based on TTFautohint frontend (http://www.freetype.org/ttfautohint/) and AES Crypt (http://www.aescrypt.com/aes_information.html)"
+            VALUE "CompanyName", "iSilver"
+            VALUE "FileDescription", "MzCrypt-Gui 1.0.3 MeizuMX3 Edition"
+            VALUE "FileVersion", "1, 0, 3, 0"
+            VALUE "InternalName", "MzCrypt-Gui"
+            VALUE "LegalCopyright", "TTFautohint is Copyright © 2011-2012 by Werner Lemberg <wl@gnu.org> + AES Crypt is Copyright © 2012 • Packetizer, Inc."
+            VALUE "LegalTrademarks", "MzCrypt-Gui"
+            VALUE "OriginalFilename", "MzCrypt-Gui.exe"
+            VALUE "PrivateBuild", "1"
+            VALUE "ProductName", "frontend.exe"
+            VALUE "ProductVersion", "0, 9, 3, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+
